@@ -6,26 +6,27 @@ const description = "Top-rated digital marketing agency in San Francisco special
 ---
 
 <Layout title={title} description={description}>
-  <section class="bg-blue-600 text-white py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-24 sm:py-32 overflow-hidden relative">
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=20')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
         <div>
-          <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+          <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl text-white">
             Grow Your Business in San Francisco
           </h1>
-          <p class="mt-4 text-xl text-blue-100 max-w-3xl">
+          <p class="mt-6 text-xl text-blue-100 max-w-3xl leading-relaxed">
             We are the premier digital marketing agency in the Bay Area, helping local businesses dominate search results, maximize ad spend, and engage audiences on social media.
           </p>
-          <div class="mt-8 flex gap-4">
-            <a href="/seo" class="bg-white text-blue-600 px-6 py-3 rounded-md font-medium hover:bg-blue-50 transition-colors">Explore SEO</a>
-            <a href="/ppc" class="border border-white text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 transition-colors">Explore PPC</a>
+          <div class="mt-10 flex flex-col sm:flex-row gap-4">
+            <a href="/seo" class="inline-flex justify-center items-center bg-white text-blue-700 px-8 py-4 rounded-full font-bold shadow-lg hover:bg-blue-50 hover:scale-105 transition-all duration-300">Explore SEO</a>
+            <a href="/ppc" class="inline-flex justify-center items-center border-2 border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white/10 transition-colors duration-300">Explore PPC</a>
           </div>
         </div>
         <div class="mt-10 lg:mt-0">
           <img 
-            src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-            alt="Golden Gate Bridge San Francisco representing local digital marketing reach" 
-            class="rounded-lg shadow-xl"
+            src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+            alt="Small business owners reviewing performance metrics"
+            class="rounded-2xl shadow-2xl border-4 border-white/20 transform hover:-translate-y-2 transition-transform duration-500"
             width="800"
             height="533"
           />
@@ -74,4 +75,92 @@ const description = "Top-rated digital marketing agency in San Francisco special
       </div>
     </div>
   </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="py-20 bg-gray-50 border-t border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="lg:text-center mb-16">
+        <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">The San Francisco Advantage</h2>
+        <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          Why Choose Our Agency?
+        </p>
+        <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          We combine local market knowledge with data-driven strategies to deliver exceptional results.
+        </p>
+      </div>
+
+      <div class="mt-10">
+        <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white shadow-lg">
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <p class="ml-16 text-xl leading-6 font-bold text-gray-900">Proven Results</p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-600">
+              We don't just promise traffic; we deliver qualified leads and tangible ROI. Our case studies speak for themselves.
+            </dd>
+          </div>
+
+          <div class="relative">
+            <dt>
+              <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white shadow-lg">
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </div>
+              <p class="ml-16 text-xl leading-6 font-bold text-gray-900">Dedicated Team</p>
+            </dt>
+            <dd class="mt-2 ml-16 text-base text-gray-600">
+              You'll work directly with experienced marketers, not passed off to junior account managers. We're an extension of your team.
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Client Success Stories</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+        <div class="bg-blue-50 rounded-2xl p-8 shadow-sm">
+          <p class="text-lg text-gray-700 italic mb-6">"Since partnering with them for our SEO and PPC, our local leads in SF have tripled. They truly understand the Bay Area market dynamics."</p>
+          <div class="flex items-center">
+            <div class="h-12 w-12 rounded-full bg-blue-200 flex items-center justify-center text-blue-700 font-bold text-xl">
+              SJ
+            </div>
+            <div class="ml-4">
+              <p class="text-base font-bold text-gray-900">Sarah Jenkins</p>
+              <p class="text-sm text-gray-500">CMO, TechStart SF</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="bg-blue-700">
+    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+      <h2 class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+        <span class="block">Ready to dominate your market?</span>
+        <span class="block text-blue-200">Get your free digital audit today.</span>
+      </h2>
+      <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+        <div class="inline-flex rounded-md shadow">
+          <a href="/contact" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 transition-colors">
+            Get Started
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </Layout>

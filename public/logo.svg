@@ -1,0 +1,12 @@
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <!-- Background rounded square for the arrow icon -->
+    <rect x="10" y="15" width="70" height="70" rx="20" fill="#2563eb" />
+    <!-- The arrow -->
+    <path d="M 55 35 L 55 50 M 55 35 L 40 35 M 35 55 L 55 35" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+    <!-- Text group -->
+    <text x="100" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#0f172a">SEO, PPC &amp; SMM</text>
+    <text x="100" y="75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#64748b" letter-spacing="1.5">Digital Growth for Small Businesses.</text>
+  </g>
+</svg>
